@@ -1,0 +1,69 @@
+{
+  "name": "nft-minting",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "3.0.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.14.18",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@walletconnect/web3-provider": "1.7.3",
+    "@web3modal/wagmi": "^3.3.2",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.0.2",
+    "crypto-browserify": "^3.12.0",
+    "ethers": "^5.5.4",
+    "hamburger-react": "^2.5.0",
+    "https": "^1.0.0",
+    "https-browserify": "^1.0.0",
+    "merkletreejs": "^0.3.9",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "os-browserify": "^0.3.0",
+    "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
+    "react-app-rewired": "^2.2.1",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-player": "^2.14.1",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.4",
+    "sass": "^1.53.0",
+    "stream": "^0.0.2",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "urql": "^3.0.3",
+    "viem": "^1.19.7",
+    "wagmi": "^1.4.7",
+    "walletlink": "2.5.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.10.2",
+    "web3modal": "^1.9.8"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
